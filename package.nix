@@ -20,7 +20,13 @@
   nss,
   pango,
   udev,
-  xorg,
+  libx11,
+  libxcomposite,
+  libxdamage,
+  libxext,
+  libxfixes,
+  libxrandr,
+  libxcb,
 }:
 
 stdenv.mkDerivation (finalAttrs: {
